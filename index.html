@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="css/all.css">
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg fixed-top bg-light navbar-light">
+        <a class="navbar-brand d-lg-none d-block" href="#" style="font-family: 'PoppinsB';">C.U.B.A.B</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link d-lg-block d-none" href="#">Travel</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        More
+                    </a>
+                    <div class="dropdown-menu " style="font-family: 'Poppins';"
+                        aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" style="color: black;" href="#">Berita</a>
+                        <a class="dropdown-item" style="color: black;" href="#">Coming Soon</a>
+                        <a class="dropdown-item" style="color: black;" href="#">Coming Soon</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Akhir Navbar -->
+
+
+    <!-- Travel Header -->
+
+    <div class="jumbotron travel jumbotron-fluid img-fluid">
+        <div class="container">
+            <h1 class="text-center">TRAVEL</h1>
+            <div class="row mx-auto" style="margin-top: 50px; margin-bottom: 80px;">
+
+                <div class="col-lg-6">
+                    <div class="where mb-4">
+                        <h5>Where?</h5>
+                        <form class="form-inline">
+                            <input class="form-control rounded-0" type="search" placeholder="Indonesia"
+                                style="width: 80%; height: 38px; font-size: 14px; font-family: 'Montserrat';">
+                            <button class="btn btn-primary rounded-0" type="submit" style="margin-left: -10px;"><i
+                                    class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="when">
+                        <h5>When?</h5>
+                        <form class="form-inline">
+                            <input class="form-control rounded-0" type="search" placeholder="16 June 2020"
+                                style="width: 80%; height: 38px; font-size: 14px; font-family: 'Montserrat';">
+                            <button class="btn btn-primary rounded-0" type="submit" style="margin-left: -10px;"><i
+                                    class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Akhir Travel Header -->
+
+    <!-- Favorites -->
+    <section class="favorites">
+
+        <h2 class="text-center">This Month's Favourites</h2>
+        <p class="text-center">Browse Our Most Popular Trips</p>
+
+        <div class="container">
+
+            <div class="row mt-4 justify-content-center">
+
+                <div class="col-lg-4 mb-3">
+                    <figure class="figure destinasi">
+                        <img src="Favourites/liberty.jpg" class="figure-img img-fluid">
+                        <figcaption class="figure-caption p-2">
+                            <p class="text-secondary m-0 mb-1">4 Days in New York City</p>
+                            <p style="font-family: 'MontserratM'; font-size: 20px; color: black;">Statue Of Liberty</p>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-lg-4 mb-3">
+                    <figure class="figure destinasi">
+                        <img src="Favourites/candi.jpg" class="figure-img img-fluid">
+                        <figcaption class="figure-caption p-2">
+                            <p class="text-secondary m-0 mb-1">7 Days in Magelang</>
+                            <p style="font-family: 'MontserratM'; font-size: 20px; color: black;">Borobudur Temple</p>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-lg-4 mb-3">
+                    <figure class="figure destinasi">
+                        <img src="Favourites/roma.jpg" class="figure-img img-fluid">
+                        <figcaption class="figure-caption p-2">
+                            <p class="text-secondary m-0 mb-1">11 Days in Rome</p>
+                            <p style="font-family: 'MontserratM'; font-size: 20px; color: black;">Colosseum</p>
+                        </figcaption>
+                    </figure>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-4 mb-3">
+                    <figure class="figure destinasi">
+                        <img src="Favourites/paris.jpg" class="figure-img img-fluid">
+                        <figcaption class="figure-caption p-2">
+                            <p class="text-secondary m-0 mb-1">21 Days in Paris</p>
+                            <p style="font-family: 'MontserratM'; font-size: 20px; color: black;">Eiffel Tower</p>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-lg-8 mb-3">
+                    <figure class="figure destinasi">
+                        <img src="Favourites/fuji.jpg" class="figure-img img-fluid">
+                        <figcaption class="figure-caption p-2">
+                            <p class="text-secondary m-0 mb-1">14 Days in Japan</p>
+                            <p style="font-family: 'MontserratM'; font-size: 20px; color: black;">Fuji Mountain</p>
+                        </figcaption>
+                    </figure>
+                </div>
+
+            </div>
+
+            <button class="btn btn-primary mx-auto d-block" type="submit">Load More<i
+                    class="fas fa-spinner ml-3"></i></button>
+
+        </div>
+
+    </section>
+
+    <!-- Akhir Favorites -->
+
+
+    <!-- Traveling Style -->
+
+    <section class="travel-style">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6" style="margin-top: 56px;">
+                    <h1 class="mb-3">Find Your Travelling<br> Style Here</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium amet illo impedit commodi
+                        nesciunt sapiente ex a itaque voluptates obcaecati, vero inventore provident, delectus
+                        exercitationem? Voluptas, ipsum ab! Quaerat pariatur dignissimos consequuntur debitis natus
+                        officia doloremque quibusdam expedita doloribus?</p>
+                </div>
+
+                <div class="col">
+
+                    <div class="row">
+                        <div class="col-lg-6 caption caption">
+                            <img src="destinasti awal/travel-style1.jpg" class="img-fluid">
+                            <a href="" class="d-flex justify-content-center caption-tulis p-2 pl-6">
+                                <h5 class="align-self-center pt-2">The Package Holiday</h5>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 caption caption">
+                            <img src="destinasti awal/travel-style2.jpg" class="img-fluid">
+                            <a href="" class="d-flex justify-content-center caption-tulis p-2 pl-3">
+                                <h5 class="align-self-center pt-2">The Weekend Break</h5>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="row mt-3 mb-3">
+                        <div class="col-lg-6 caption caption">
+                            <img src="destinasti awal/travel-style3.jpg" class="img-fluid">
+                            <a href="" class="d-flex justify-content-center caption-tulis2 p-2 pl-3">
+                                <h5 class="align-self-center pt-2">Volunteer Travel</h5>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 caption caption">
+                            <img src="destinasti awal/travel-style4.jpg" class="img-fluid">
+                            <a href="" class="d-flex justify-content-center caption-tulis2 p-2 pl-3">
+                                <h5 class="align-self-center pt-2">Long Term Slow Travel</h5>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-lg-4 caption">
+                    <img src="destinasti awal/travel-style5.jpg" class="img-fluid">
+                    <a href="" class="d-flex justify-content-center caption-tulis3 p-2 pl-3">
+                        <h5 class="align-self-center pt-2">Event Travel</h5>
+                    </a>
+                </div>
+                <div class="col-lg-4 caption">
+                    <img src="destinasti awal/travel-style6.jpg" class="img-fluid">
+                    <a href="" class="d-flex justify-content-center caption-tulis3 p-2 pl-3">
+                        <h5 class="align-self-center pt-2">The Gap Year</h5>
+                    </a>
+                </div>
+                <div class="col-lg-4 caption">
+                    <img src="destinasti awal/travel-style7.jpg" class="img-fluid">
+                    <a href="" class="d-flex justify-content-center caption-tulis3 p-2 pl-3">
+                        <h5 class="align-self-center pt-2">Malone Travel</h5>
+                    </a>
+                </div>
+            </div>
+
+            <button class="btn mb-4 mx-auto d-block" type="submit">LEARN MORE<i
+                    class="fas fa-arrow-right ml-2"></i></button>
+
+        </div>
+
+    </section>
+
+    <!-- Akhir Traveling Style -->
+
+
+    <!-- Rating -->
+
+    <section class="rating">
+        <div class="container text-center">
+            <h2>Average Customer Rating</h2>
+            <p>Independent Service Rated Based on 777 Verified Reviews. <span>Read All Reviews</span></p>
+            <h3>4.8 / 5</h3>
+            <p class="star text-primary mt-2">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </p>
+
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+
+                            <div class="col-lg-3">
+                                <p class="star text-warning mt-5">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </p>
+                                <h3>"Awesome"</h3>
+                                <p style="font-size: 15px; margin-top: 30px;">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing
+                                    elit. Tenetur, saepe
+                                    laboriosam amet eum
+                                    excepturi voluptatibus rerum sequi harum architecto perferendis ipsam, aut autem
+                                    necessitatibus
+                                    cumque.</p>
+                            </div>
+
+                            <div class="col-lg-3">
+                                <p class="star text-warning mt-5">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </p>
+                                <h3>"Friend For Life"</h3>
+                                <p style="font-size: 15px; margin-top: 30px;">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing
+                                    elit. Tenetur, saepe
+                                    laboriosam amet eum
+                                    excepturi voluptatibus rerum sequi harum architecto perferendis ipsam, aut autem
+                                    necessitatibus
+                                    cumque.</p>
+                            </div>
+
+                            <div class="col-lg-3">
+                                <p class="star text-warning mt-5">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </p>
+                                <h3>"Great Value"</h3>
+                                <p style="font-size: 15px; margin-top: 30px;">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing
+                                    elit. Tenetur, saepe
+                                    laboriosam amet eum
+                                    excepturi voluptatibus rerum sequi harum architecto perferendis ipsam, aut autem
+                                    necessitatibus
+                                    cumque.</p>
+                            </div>
+
+                            <div class="col-lg-3">
+                                <p class="star text-warning mt-5">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </p>
+                                <h3>"Fast Respons"</h3>
+                                <p style="font-size: 15px; margin-top: 30px;">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing
+                                    elit. Tenetur, saepe
+                                    laboriosam amet eum
+                                    excepturi voluptatibus rerum sequi harum architecto perferendis ipsam, aut autem
+                                    necessitatibus
+                                    cumque.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+
+                            <div class="col-lg-3">
+                                <p class="star text-warning mt-5">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </p>
+                                <h3>"Awesome"</h3>
+                                <p style="font-size: 15px; margin-top: 30px;">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing
+                                    elit. Tenetur, saepe
+                                    laboriosam amet eum
+                                    excepturi voluptatibus rerum sequi harum architecto perferendis ipsam, aut autem
+                                    necessitatibus
+                                    cumque.</p>
+                            </div>
+
+                            <div class="col-lg-3">
+                                <p class="star text-warning mt-5">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </p>
+                                <h3>"Friend For Life"</h3>
+                                <p style="font-size: 15px; margin-top: 30px;">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing
+                                    elit. Tenetur, saepe
+                                    laboriosam amet eum
+                                    excepturi voluptatibus rerum sequi harum architecto perferendis ipsam, aut autem
+                                    necessitatibus
+                                    cumque.</p>
+                            </div>
+
+                            <div class="col-lg-3">
+                                <p class="star text-warning mt-5">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </p>
+                                <h3>"Great Value"</h3>
+                                <p style="font-size: 15px; margin-top: 30px;">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing
+                                    elit. Tenetur, saepe
+                                    laboriosam amet eum
+                                    excepturi voluptatibus rerum sequi harum architecto perferendis ipsam, aut autem
+                                    necessitatibus
+                                    cumque.</p>
+                            </div>
+
+                            <div class="col-lg-3">
+                                <p class="star text-warning mt-5">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </p>
+                                <h3>"Fast Respons"</h3>
+                                <p style="font-size: 15px; margin-top: 30px;">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing
+                                    elit. Tenetur, saepe
+                                    laboriosam amet eum
+                                    excepturi voluptatibus rerum sequi harum architecto perferendis ipsam, aut autem
+                                    necessitatibus
+                                    cumque.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+
+                            <div class="col-lg-3">
+                                <p class="star text-warning mt-5">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </p>
+                                <h3>"Awesome"</h3>
+                                <p style="font-size: 15px; margin-top: 30px;">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing
+                                    elit. Tenetur, saepe
+                                    laboriosam amet eum
+                                    excepturi voluptatibus rerum sequi harum architecto perferendis ipsam, aut autem
+                                    necessitatibus
+                                    cumque.</p>
+                            </div>
+
+                            <div class="col-lg-3">
+                                <p class="star text-warning mt-5">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </p>
+                                <h3>"Friend For Life"</h3>
+                                <p style="font-size: 15px; margin-top: 30px;">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing
+                                    elit. Tenetur, saepe
+                                    laboriosam amet eum
+                                    excepturi voluptatibus rerum sequi harum architecto perferendis ipsam, aut autem
+                                    necessitatibus
+                                    cumque.</p>
+                            </div>
+
+                            <div class="col-lg-3">
+                                <p class="star text-warning mt-5">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </p>
+                                <h3>"Great Value"</h3>
+                                <p style="font-size: 15px; margin-top: 30px;">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing
+                                    elit. Tenetur, saepe
+                                    laboriosam amet eum
+                                    excepturi voluptatibus rerum sequi harum architecto perferendis ipsam, aut autem
+                                    necessitatibus
+                                    cumque.</p>
+                            </div>
+
+                            <div class="col-lg-3">
+                                <p class="star text-warning mt-5">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </p>
+                                <h3>"Fast Respons"</h3>
+                                <p style="font-size: 15px; margin-top: 30px;">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing
+                                    elit. Tenetur, saepe
+                                    laboriosam amet eum
+                                    excepturi voluptatibus rerum sequi harum architecto perferendis ipsam, aut autem
+                                    necessitatibus
+                                    cumque.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <p class="caro text-center mt-4">
+
+                    <i class="fas fa-chevron-left mr-2" href="#carouselExampleControls" role="button"
+                        data-slide="prev"></i>
+
+                    <i class="far fa-circle slidex" data-target="#carouselExampleControls" data-slide-to="0"
+                        class="active"></i>
+                    <i class="far fa-circle slidex" data-target="#carouselExampleControls" data-slide-to="1"></i>
+                    <i class="far fa-circle slidex" data-target="#carouselExampleControls" data-slide-to="2"></i>
+
+                    <i class="fas fa-chevron-right ml-2" href="#carouselExampleControls" role="button"
+                        data-slide="next"></i>
+
+                </p>
+
+                <hr style="border: 2px solid black; margin-top: 20px;">
+
+                <h2 class="mt-4">Are You Our Next Insider?</h2>
+                <p>Be The First To Experience Your Newest Adventure.</p>
+                <button type="submit" class="btn">GET STARTED</button>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Akhir Rating -->
+
+
+    <!-- Footer -->
+
+    <section class="footer p-5">
+        <h4>Company</h4>
+
+        <div class="row mt-4">
+
+            <div class="col-lg-2 mb-4">
+                <p>Location</p>
+                <p>Team Up</p>
+                <p>Services</p>
+                <p>Guarante</p>
+            </div>
+
+            <div class="col-lg-2 mb-4">
+                <p>About Us</p>
+                <p>Contact Us</p>
+                <p>How It Work</p>
+                <p>Your Guides</p>
+            </div>
+
+            <div class="col-lg-2 mb-4">
+                <p>Solo</p>
+                <p>Career</p>
+                <p>FAQs</p>
+                <p>Why Travel Solo</p>
+            </div>
+
+            <div class="col">
+                <p>Browse by Trip type</p>
+                <p>Your latest Trip offers</p>
+                <p>Friend busy? Do it anyway</p>
+                <p>Become a Premium Pack Insider</p>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <hr style="border: 2px solid white;">
+                <h4 class="mt-4">Social Media</h4>
+                <div class="social d-flex mt-4">
+                    <img src="social/fb.png" class="img-fluid" style="width: 20px; height: 20px;">
+                    <img src="social/ig.png" class="img-fluid ml-4" style="width: 20px; height: 20px;">
+                    <img src="social/wa.png" class="img-fluid ml-4" style="width: 20px; height: 20px;">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="foot text-center align-self-center bg-primary p-1">
+        <h4>C.U.B.A.B</h4>
+        <p style="font-size: 11px;">Copyright by C.U.B.A.B 2020 All Right Reserved</p>
+    </div>
+
+    <!-- Akhir Footer -->
+
+
+
+
+
+    <!-- Javascript -->
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/all.js"></script>
+
+</body>
+
+</html>
